@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Nordtech</title>
+        <link rel="stylesheet" href="hoved.css">
+    
+    </head>
+
+    <body>
+        <!--Vet ikke hvordan jeg bruker database i dette...-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <section class="top-nav">
+            <div>
+                <h1>Nordtech</h1>
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        
+
+        <ul class="menu">
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="om.html">Om oss</a></li>
+            <li><a href="melding.html">Melding</a></li>
+            <li><a href="images.html">Bilder</a></li>
+            <li>meld deg</li>
+        </ul>
+      </section>
+
+        
+    
+        <form action="/action_page.php">
+            <label for="fname">Navn:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Epost:</label>
+            <input type="text" id="email" name="email"><br><br>
+            <label for="lname">skriv her:</label>
+            <input type="text" id="melding" name="melding"><br><br>
+            <input type="submit" value="Send inn">
+          </form> 
+
+
+
+
+    </body>
+</html>
